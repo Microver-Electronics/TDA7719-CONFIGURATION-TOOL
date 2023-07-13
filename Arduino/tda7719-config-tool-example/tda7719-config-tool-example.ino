@@ -1,4 +1,4 @@
-#include <TDA7719.h>
+#include "TDA7719.h"
 #include <Wire.h>
 
 // CHANGE THE I2C PINS BELOW, FIND THE RIGHT PINS FOR YOUR BOARD (we mainly worked on an STM32 board so this is why we used PB pins, you can use it with any board)
