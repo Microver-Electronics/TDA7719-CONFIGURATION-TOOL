@@ -2,7 +2,7 @@
 
 This repository contains an Arduino sketch and a Qt widget application for configuring the TDA7719 audio processor. You can run the Qt GUI application by running 'terminal.exe'. The Arduino code receives configuration data from the Qt application via serial communication and sends it to the TDA7719 audio processor.
 
-![GUI Screen Shot](ui.jpg)
+![GUI Screen Shot](app-images/ui.jpg)
 
 ## Dependencies
 
