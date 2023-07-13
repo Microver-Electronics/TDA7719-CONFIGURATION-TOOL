@@ -4,7 +4,7 @@ This repository contains an Arduino sketch and a Qt widget application for confi
 
 ## Dependencies
 
-- TDA7719 library ([https://github.com/example/tda7719-library](https://github.com/liman324/TDA7719)) - Make sure to install this library and then modifying it with our TDA7719.cpp and TDA7719.h files (if my current commits not merged yet for that library) before uploading the Arduino sketch.
+- TDA7719 library ([https://github.com/example/tda7719-library](https://github.com/liman324/TDA7719)) - Make sure to install this library and then modify it with our TDA7719.cpp and TDA7719.h files which are located inside 'Arduino/tda7719-library-mod' before uploading the Arduino sketch. (if current commits not merged yet for that library, please check the library for the modifications below)
 
 ## Added parts for the library: (easy to redo)
 
