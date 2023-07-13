@@ -78,27 +78,17 @@ class TDA7719
 
 The Qt widget application provides a graphical user interface for configuring the TDA7719 audio processor. It allows you to set register values in a meaningful way and control the audio processor's settings with just a few clicks.
 
-### Building the Application
-
-To build the Qt widget application, follow these steps:
-
-1. Install Qt development tools (https://www.qt.io/download).
-2. Clone this repository to your local machine.
-3. Open the project in Qt Creator.
-4. Build the project.
-
 ### Using the Application
 
 1. Connect the Arduino board to your computer.
-2. Launch the Qt widget application.
-3. Select the appropriate serial port in the application.
-4. Modify the register values as desired.
-5. Click the "Send Configuration" button to send the configuration to the Arduino and TDA7719 audio processor.
+2. Launch the Qt widget application by running terminal.exe
+3. Select the appropriate serial port configurations in the application settings window.
+4. Connect to the UART channel.
+5. Open variables page by clicking (x) button on top menu.
+7. Modify the register values as desired.
+8. Click the "Send" button to send the configuration to the Arduino and TDA7719 audio processor.
+9. Click the "Save" button to save the current configuration as a checkpoint.
 
 ## Contributing
 
 Contributions to this project are welcome. If you find any issues or have any suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
